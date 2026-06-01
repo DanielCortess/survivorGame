@@ -48,7 +48,7 @@ def pausa():
     if (NIVEL == 1):
         for s in spawners:
             s.sonido_explosion.stop()
-    fondomenupausa=pygame.image.load('survivor-logo.jpg')
+    fondomenupausa=pygame.image.load('survivor-logo.png')
     pygame.display.set_caption("Ejemplo de menu")
     ClaseMenuPausa=MenuInicial()
     opcionesp=['Continuar', 'Salir']
@@ -84,7 +84,7 @@ def pausa():
         pygame.display.flip()
 
 def controlesmenu():
-    img=pygame.image.load('controles.jpg')
+    img=pygame.image.load('controles.png')
     controlesm=False
     sonido_controles=pygame.mixer.Sound('controles.ogg')
     sonido_controles.play()
@@ -124,7 +124,7 @@ def victory():
     sonido_victory=pygame.mixer.Sound('victory1.ogg')
     sonido_victory.play()
     fin=True
-    img=pygame.image.load('victory.jpg')
+    img=pygame.image.load('victory.png')
     while not fin_victoria:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -157,7 +157,7 @@ def gameover():
     sonido_gameover=pygame.mixer.Sound('gameover.ogg')
     sonido_gameover.play()
     fin=True
-    img=pygame.image.load('gameover.jpg')
+    img=pygame.image.load('gameover.png')
     while not fin_juego:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -174,8 +174,8 @@ def gameover():
         pygame.display.update()
 
 def preludio():
-    img1=pygame.image.load('preludio1.jpg')
-    img2=pygame.image.load('preludio2.jpg')
+    img1=pygame.image.load('preludio1.png')
+    img2=pygame.image.load('preludio2.png')
     preludio=False
     imgcon=0
     sonido_preludio=pygame.mixer.Sound('preludio.ogg')
@@ -206,7 +206,7 @@ def preludio():
         pygame.display.flip()
 
 def interludio():
-    img=pygame.image.load('interludio.jpg')
+    img=pygame.image.load('interludio.png')
     interludio=False
     imgcon2=0
     sonido_interludio=pygame.mixer.Sound('interludio.ogg')
@@ -233,7 +233,7 @@ def interludio():
 def menuinicial():
     pantalla.fill(NEGRO)
     menu_inicial=False
-    fondomenuinicial=pygame.image.load('survivor-logo.jpg')
+    fondomenuinicial=pygame.image.load('survivor-logo.png')
     pygame.display.set_caption("Survivor")
     ClaseMenuInicial=MenuInicial()
     opciones=['Controles', 'Nuevo juego', 'Creditos', 'Salir']
