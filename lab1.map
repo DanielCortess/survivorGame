@@ -1,0 +1,200 @@
+[info]
+img:lab1.png
+mapa:......ab.ab.......rtvxrtvxrtvxrtvxrtvx
+     ......cd.cd.......suwysuwysuwysuwysuwy
+     ......ef.ef...........................
+     ..............................z......
+     ......................................
+     ......................................
+     41..................................14
+     52..................................25
+     63..................................36
+     ......................................
+     41..................................14
+     52..................................25
+     63..................................36
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     gigigigi......................gigigigi
+     hjhjhjhj......................hjhjhjhj
+     .l..o...........................o..l..
+     .m..p...........................p..m..
+     .n..q...........................q..n..
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     ......................................
+     .....z................................
+     ......................................
+     ......................................
+     rtvxrtvxrtvxrtvxrtvx..................
+     suwysuwysuwysuwysuwy..................
+
+[.]
+tipo:vacio
+fil:0
+col:0
+
+[a]
+tipo:generador_arr_izq
+fil:9
+col:6
+
+[b]
+tipo:generador_arr_der
+fil:9
+col:7
+
+[c]
+tipo:generador_cent_izq
+fil:10
+col:6
+
+[d]
+tipo:generador_cent_der
+fil:10
+col:7
+
+[e]
+tipo:generador_abaj_izq
+fil:11
+col:6
+
+[f]
+tipo:generador_abaj_der
+fil:11
+col:7
+
+[g]
+tipo:cortina_arr_izq
+fil:4
+col:9
+
+[h]
+tipo:cortina_abaj_izq
+fil:5
+col:9
+
+[i]
+tipo:cortina_arr_der
+fil:4
+col:10
+
+[j]
+tipo:cortina_abaj_der
+fil:5
+col:10
+
+[l]
+tipo:cama_verde_arr
+fil:11
+col:9
+
+[m]
+tipo:cama_verde_cent
+fil:12
+col:9
+
+[n]
+tipo:cama_verde_abaj
+fil:13
+col:9
+
+[o]
+tipo:cama_naranja_arr
+fil:11
+col:10
+
+[p]
+tipo:cama_naranja_cent
+fil:12
+col:10
+
+[q]
+tipo:cama_naranja_abaj
+fil:13
+col:10
+
+[r]
+tipo:casillero_cerrado_arriba
+fil:2
+col:0
+
+[s]
+tipo:casillero_cerrado_abajo
+fil:3
+col:0
+
+[t]
+tipo:casillero_abierto_arriba
+fil:4
+col:0
+
+[u]
+tipo:casillero_abierto_abajo
+fil:5
+col:0
+
+[v]
+tipo:casillero_libros_arriba
+fil:4
+col:1
+
+[w]
+tipo:casillero_libros_abajo
+fil:5
+col:1
+
+[x]
+tipo:casillero_vidrio_arriba
+fil:4
+col:2
+
+[y]
+tipo:casillero_vidrio_abajo
+fil:5
+col:2
+
+[1]
+tipo:tubo_gris_arriba
+fil:6
+col:6
+
+[2]
+tipo:tubo_gris_centro
+fil:7
+col:6
+
+[3]
+tipo:tubo_gris_centro
+fil:8
+col:6
+
+[4]
+tipo:tubo_azul_arriba
+fil:6
+col:7
+
+[5]
+tipo:tubo_gris_centro
+fil:7
+col:7
+
+[6]
+tipo:tubo_gris_centro
+fil:8
+col:7
+
+[z]
+tipo:generador
+fil:15
+col:5

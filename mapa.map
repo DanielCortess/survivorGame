@@ -1,0 +1,167 @@
+[info]
+img:forest_tiles.png
+mapa:ababababababababababababababababababab
+     cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+     abahghghghghghghghghghghghghghghghgbdb
+     cdh................................gbd
+     abf................................eab
+     cdh...efefefef..........efefefef...gcd
+     abf..eababababf........eababababf..eab
+     cdh..gcdcdcdcdh........gcdcdcdcdh..gcd
+     abf...ghghghgh..........ghghghgh...eab
+     cdh................................gcd
+     abf................................eab
+     cdh.............efefef.............gcd
+     abf............eabababf............eab
+     cdh............gcdcdcdh............gcd
+     abf.............ghghgh.............eab
+     cdh...............op...............gcd
+     abf................................eab
+     cdh...efefefef....x......n.n.n.....gcd
+     abf..eababababf.......l.n.n.n.n....eab
+     cdh..gcdcdcdcdh.x.i.x.m.n.n.n.n....gcd
+     abf...ghghghgh...........n.n.n.....eab
+     cdh...............x................gcd
+     abf................................eab
+     cdh.............efefef.............gcd
+     abf............eabababf............eab
+     cdh............gcdcdcdh............gcd
+     abf.............ghghgh.............eab
+     cdh................................gcd
+     abf................................eab
+     cdh...efefefef..........efefefef...gcd
+     abf..eababababf........eababababf..eab
+     cdh..gcdcdcdcdh........gcdcdcdcdh..gcd
+     abf...ghghghgh..........ghghghgh...eab
+     cdh................................gcd
+     abf................................eab
+     cdcfefefefefefefefefefefefefefefefedca
+     ababababababababababababababababababab
+     cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+
+
+
+[.]
+tipo:vacio
+fil:0
+col:0
+
+[a]
+tipo:bosque1_arriba_izq
+fil:6
+col:2
+
+[b]
+tipo:bosque1_arriba_der
+fil:6
+col:3
+
+[c]
+tipo:bosque1_abajo_izq
+fil:7
+col:2
+
+[d]
+tipo:bosque1_abajo_der
+fil:7
+col:3
+
+[e]
+tipo:arbol1_arriba_izq
+fil:6
+col:0
+
+[f]
+tipo:arbol1_arriba_der
+fil:6
+col:1
+
+[g]
+tipo:arbol1_abajo_izq
+fil:7
+col:0
+
+[h]
+tipo:arbol1_abajo_der
+fil:7
+col:1
+
+[i]
+tipo:fogata_encendida
+fil:5
+col:3
+
+[j]
+tipo:pino_sup
+fil:1
+col:10
+
+[k]
+tipo:pino_inf
+fil:2
+col:10
+
+[l]
+tipo:tronco_vertical_sup
+fil:0
+col:14
+
+[m]
+tipo:tronco_vertical_inf
+fil:1
+col:14
+
+[n]
+tipo:tronco_cortado
+fil:3
+col:6
+
+[o]
+tipo:tronco_horiontal_izq
+fil:2
+col:11
+
+[p]
+tipo:tronco_horizontal_der
+fil:2
+col:12
+
+[q]
+tipo:choza_sup_izq
+fil:2
+col:14
+
+[r]
+tipo:choza_sup_der
+fil:2
+col:15
+
+[s]
+tipo:choza_inf_izq
+fil:3
+col:14
+
+[t]
+tipo:choza_inf_der
+fil:3
+col:15
+
+[u]
+tipo:piedra_grande
+fil:1
+col:11
+
+[v]
+tipo:hongos
+fil:0
+col:13
+
+[w]
+tipo:tronco_horizontal_der
+fil:3
+col:0
+
+[x]
+tipo:piedras_pequenas
+fil:1
+col:12
